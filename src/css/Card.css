@@ -1,0 +1,70 @@
+/*Card*/
+.Card {
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 168px;
+    margin: 50px 0px 20px 0px;
+}
+
+/*Card Header*/
+.card_header {
+    width: 30%;
+}
+
+.card_header_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+/*Card Body*/
+.card_body {
+    width: 70%;
+    padding: 10px 15px;
+}
+
+.card_body_location {
+    font-size: 10pt;
+}
+
+.card_body_map_icon {
+    width: 7px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.card_body_url {
+    margin-left: 10px;
+}
+
+.card_body_country_name {
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(74, 74, 74, 0.44)
+}
+
+.card_body_title > h1{
+    margin: 5px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    text-shadow: 2px 2px 1px rgba(74, 74, 74, 0.11)
+}
+
+.card_body_date {
+    font-size: .7rem;
+    font-family: Inter, sans-serif;
+    margin: 5px 0px;
+}
+
+.card_body_description {
+    font-size: 10pt;
+    overflow-y: auto;
+}
+
+.card_body_description > p {
+    margin: 0px;
+    font-family: Inter, sans-serif;
+    height: 85px;
+}
