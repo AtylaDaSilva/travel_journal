@@ -1,4 +1,3 @@
-import test_img from '../img/mt_fuji.jpg';
 import map_arrow_icon from '../img/map_arrow_icon.png';
 
 export default function Card(props) {
